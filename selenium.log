@@ -1,73 +1,35 @@
-[2024-03-25 19:28:45     INFO] {'item': 'get', 'data': 'https://10.1.1.5/Login.asp'}
-[2024-03-25 19:28:48     INFO] {'item': 'WebDriverWait', 'xpath': '//*[@id="Username"]', 'timeout': '5'}
-[2024-03-25 19:28:48     INFO] {'item': 'minimize_window', 'xpath': '//*[@id="Username"]'}
-[2024-03-25 19:28:48     INFO] {'item': 'send_keys', 'xpath': '//*[@id="Username"]', 'data': 'admin'}
-[2024-03-25 19:28:48     INFO] {'item': 'send_keys', 'xpath': '//*[@id="Password"]', 'data': 'moxa'}
-[2024-03-25 19:28:48     INFO] {'item': 'click', 'xpath': '/html/body/table[1]/tbody/tr[2]/td/div/form/table/tbody/tr[9]/td[2]/input'}
-[2024-03-25 19:28:49     INFO] {'item': 'sleep', 'data': '1'}
-[2024-03-25 19:28:50     INFO] {'item': 'execute_script', 'data': 'window.open("https://10.1.1.5/asqc.asp")'}
-[2024-03-25 19:28:50     INFO] {'item': 'switch_to.window', 'data': '1'}
-[2024-03-25 19:28:50     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[2]/td[2]', 'section': 'System Information', 'option': 'Model name'}
-[2024-03-25 19:28:51     INFO] Model name = AWK-1132C-US
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[3]/td[2]', 'section': 'System Information', 'option': 'Device name'}
-[2024-03-25 19:28:51     INFO] Device name = AWK-1132C_00:04:A0
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[4]/td[2]', 'section': 'System Information', 'option': 'Serial number'}
-[2024-03-25 19:28:51     INFO] Serial number = CBDCT1000001
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[5]/td[2]', 'section': 'System Information', 'option': 'System uptime'}
-[2024-03-25 19:28:51     INFO] System uptime = 0 days 00h:00m:43s
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[6]/td[2]', 'section': 'System Information', 'option': 'Firmware version'}
-[2024-03-25 19:28:51     INFO] Firmware version = 1.0 Build 24031213
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[7]/td[2]', 'section': 'System Information', 'option': 'BIOS version'}
-[2024-03-25 19:28:51     INFO] BIOS version = 1.9.13
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[9]/td[2]', 'section': 'Device Information', 'option': 'Device MAC address'}
-[2024-03-25 19:28:51     INFO] Device MAC address = 00:90:E8:00:04:A0
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[10]/td[2]', 'section': 'Device Information', 'option': 'IP address'}
-[2024-03-25 19:28:51     INFO] IP address = 192.168.127.253
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[11]/td[2]', 'section': 'Device Information', 'option': 'Subnet mask'}
-[2024-03-25 19:28:51     INFO] Subnet mask = 255.255.255.0
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[12]/td[2]', 'section': 'Device Information', 'option': 'Gateway'}
-[2024-03-25 19:28:51     INFO] Gateway = 
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[14]/td[2]', 'section': 'Board Flag Info', 'option': 'flag_eth_phy'}
-[2024-03-25 19:28:51     INFO] flag_eth_phy = 1
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[15]/td[2]', 'section': 'Board Flag Info', 'option': 'flag_eth_type'}
-[2024-03-25 19:28:51     INFO] flag_eth_type = 1
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[16]/td[2]', 'section': 'Board Flag Info', 'option': 'flag_wifi_module'}
-[2024-03-25 19:28:51     INFO] flag_wifi_module = 0
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[17]/td[2]', 'section': 'Board Flag Info', 'option': 'flag_art'}
-[2024-03-25 19:28:51     INFO] flag_art = 1
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[18]/td[2]', 'section': 'Board Flag Info', 'option': 'flag_mp'}
-[2024-03-25 19:28:51     INFO] flag_mp = 1
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[19]/td[2]', 'section': 'Board Flag Info', 'option': 'flag_idgen'}
-[2024-03-25 19:28:51     INFO] flag_idgen = 1
-[2024-03-25 19:28:51     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[20]/td[2]', 'section': 'Board Flag Info', 'option': 'flag_macgen'}
-[2024-03-25 19:28:52     INFO] flag_macgen = 1
-[2024-03-25 19:28:52     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[21]/td[2]', 'section': 'Board Flag Info', 'option': 'flag_burn'}
-[2024-03-25 19:28:52     INFO] flag_burn = 1
-[2024-03-25 19:28:52     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[22]/td[2]', 'section': 'Board Flag Info', 'option': 'flag_cmu'}
-[2024-03-25 19:28:52     INFO] flag_cmu = 1
-[2024-03-25 19:28:52     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[23]/td[2]', 'section': 'Board Flag Info', 'option': 'flag_gps'}
-[2024-03-25 19:28:52     INFO] flag_gps = 1
-[2024-03-25 19:28:52     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[24]/td[2]', 'section': 'Board Flag Info', 'option': 'flag_txrx'}
-[2024-03-25 19:28:52     INFO] flag_txrx = 0
-[2024-03-25 19:28:52     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[25]/td[2]', 'section': 'Board Flag Info', 'option': 'flag_eot'}
-[2024-03-25 19:28:52     INFO] flag_eot = 0
-[2024-03-25 19:28:52     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[26]/td[2]', 'section': 'Board Flag Info', 'option': 'flag_poe'}
-[2024-03-25 19:28:52     INFO] flag_poe = 0
-[2024-03-25 19:28:52     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[27]/td[2]', 'section': 'Board Flag Info', 'option': 'flag_asqc'}
-[2024-03-25 19:28:52     INFO] flag_asqc = 0
-[2024-03-25 19:28:52     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[29]/td[2]', 'section': '802.11 Information', 'option': 'Operation mode'}
-[2024-03-25 19:28:52     INFO] Operation mode = CLIENT
-[2024-03-25 19:28:52     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[30]/td[2]', 'section': '802.11 Information', 'option': 'Channel'}
-[2024-03-25 19:28:52     INFO] Channel = 
-[2024-03-25 19:28:52     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[31]/td[2]', 'section': '802.11 Information', 'option': 'SSID'}
-[2024-03-25 19:28:52     INFO] SSID = MOXA
-[2024-03-25 19:28:52     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[32]/td[2]', 'section': '802.11 Information', 'option': 'Security mode'}
-[2024-03-25 19:28:52     INFO] Security mode = OPEN
-[2024-03-25 19:28:52     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[33]/td[2]', 'section': '802.11 Information', 'option': 'RF type'}
-[2024-03-25 19:28:52     INFO] RF type = 
-[2024-03-25 19:28:52     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[34]/td[2]', 'section': '802.11 Information', 'option': 'Transmission rate'}
-[2024-03-25 19:28:52     INFO] Transmission rate = Auto
-[2024-03-25 19:28:52     INFO] {'item': 'text', 'xpath': '/html/body/table/tbody/tr[35]/td[2]', 'section': '802.11 Information', 'option': 'Country code'}
-[2024-03-25 19:28:52     INFO] Country code = US
-[2024-03-25 19:28:52     INFO] Result : PASS
-[2024-03-25 19:28:54     INFO] Finish.
+[2024-03-28 13:42:42     INFO] {'item': 'get', 'data': 'https://10.1.1.5/Login.asp'}
+[2024-03-28 13:43:05     INFO] Message: unknown error: net::ERR_CONNECTION_TIMED_OUT
+                                 (Session info: chrome-headless-shell=123.0.6312.60)
+                               Stacktrace:
+                               	GetHandleVerifier [0x00007FF619FC70C2+63090]
+                               	(No symbol) [0x00007FF619F32D12]
+                               	(No symbol) [0x00007FF619DCEC65]
+                               	(No symbol) [0x00007FF619DCAC1A]
+                               	(No symbol) [0x00007FF619DBD514]
+                               	(No symbol) [0x00007FF619DBE8F8]
+                               	(No symbol) [0x00007FF619DBD7FF]
+                               	(No symbol) [0x00007FF619DBD104]
+                               	(No symbol) [0x00007FF619DBD021]
+                               	(No symbol) [0x00007FF619DBB0A8]
+                               	(No symbol) [0x00007FF619DBB8BC]
+                               	(No symbol) [0x00007FF619DD14AD]
+                               	(No symbol) [0x00007FF619E53D67]
+                               	(No symbol) [0x00007FF619E36FDA]
+                               	(No symbol) [0x00007FF619E53412]
+                               	(No symbol) [0x00007FF619E36D83]
+                               	(No symbol) [0x00007FF619E083A8]
+                               	(No symbol) [0x00007FF619E09441]
+                               	GetHandleVerifier [0x00007FF61A3C262D+4238301]
+                               	GetHandleVerifier [0x00007FF61A3FF78D+4488509]
+                               	GetHandleVerifier [0x00007FF61A3F7A6F+4456479]
+                               	GetHandleVerifier [0x00007FF61A0A0606+953270]
+                               	(No symbol) [0x00007FF619F3E5DF]
+                               	(No symbol) [0x00007FF619F392B4]
+                               	(No symbol) [0x00007FF619F393EB]
+                               	(No symbol) [0x00007FF619F29C24]
+                               	BaseThreadInitThunk [0x00007FFF89E67344+20]
+                               	RtlUserThreadStart [0x00007FFF8BBA26B1+33]
+
+[2024-03-28 13:43:05     INFO] Result : FAIL
+[2024-03-28 13:43:08     INFO] Finish.
