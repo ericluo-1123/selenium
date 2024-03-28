@@ -1,0 +1,45 @@
+{'item' : 'get', 'data' : 'https://10.1.1.5/Login.asp'}
+{'item' : 'WebDriverWait', 'xpath' : '//*[@id="Username"]', 'timeout' : '5'}
+{'item' : 'minimize_window', 'xpath' : '//*[@id="Username"]'}
+{'item' : 'send_keys', 'xpath' : '//*[@id="Username"]', 'data' : 'admin'}
+{'item' : 'send_keys', 'xpath' : '//*[@id="Password"]', 'data' : 'moxa'}
+{'item' : 'click', 'xpath' : '/html/body/table[1]/tbody/tr[2]/td/div/form/table/tbody/tr[9]/td[2]/input'}
+{'item' : 'sleep', 'data' : '1'}
+{'item' : 'execute_script', 'data' : 'window.open("https://10.1.1.5/asqc.asp")'}
+{'item' : 'switch_to.window', 'data' : '1'}
+
+#System Information
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[2]/td[2]', 'section' : 'System Information', 'option' : 'Model name'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[3]/td[2]', 'section' : 'System Information', 'option' : 'Device name'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[4]/td[2]', 'section' : 'System Information', 'option' : 'Serial number'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[5]/td[2]', 'section' : 'System Information', 'option' : 'System uptime'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[6]/td[2]', 'section' : 'System Information', 'option' : 'Firmware version'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[7]/td[2]', 'section' : 'System Information', 'option' : 'BIOS version'}
+#Device Information
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[9]/td[2]', 'section' : 'Device Information', 'option' : 'Device MAC address'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[10]/td[2]', 'section' : 'Device Information', 'option' : 'IP address'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[11]/td[2]', 'section' : 'Device Information', 'option' : 'Subnet mask'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[12]/td[2]', 'section' : 'Device Information', 'option' : 'Gateway'}
+#Board Flag Info
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[14]/td[2]', 'section' : 'Board Flag Info', 'option' : 'flag_eth_phy'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[15]/td[2]', 'section' : 'Board Flag Info', 'option' : 'flag_eth_type'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[16]/td[2]', 'section' : 'Board Flag Info', 'option' : 'flag_wifi_module'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[17]/td[2]', 'section' : 'Board Flag Info', 'option' : 'flag_art'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[18]/td[2]', 'section' : 'Board Flag Info', 'option' : 'flag_mp'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[19]/td[2]', 'section' : 'Board Flag Info', 'option' : 'flag_idgen'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[20]/td[2]', 'section' : 'Board Flag Info', 'option' : 'flag_macgen'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[21]/td[2]', 'section' : 'Board Flag Info', 'option' : 'flag_burn'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[22]/td[2]', 'section' : 'Board Flag Info', 'option' : 'flag_cmu'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[23]/td[2]', 'section' : 'Board Flag Info', 'option' : 'flag_gps'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[24]/td[2]', 'section' : 'Board Flag Info', 'option' : 'flag_txrx'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[25]/td[2]', 'section' : 'Board Flag Info', 'option' : 'flag_eot'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[26]/td[2]', 'section' : 'Board Flag Info', 'option' : 'flag_poe'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[27]/td[2]', 'section' : 'Board Flag Info', 'option' : 'flag_asqc'}
+#802.11 Information
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[29]/td[2]', 'section' : '802.11 Information', 'option' : 'Operation mode'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[30]/td[2]', 'section' : '802.11 Information', 'option' : 'Channel'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[31]/td[2]', 'section' : '802.11 Information', 'option' : 'SSID'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[32]/td[2]', 'section' : '802.11 Information', 'option' : 'Security mode'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[33]/td[2]', 'section' : '802.11 Information', 'option' : 'RF type'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[34]/td[2]', 'section' : '802.11 Information', 'option' : 'Transmission rate'}
+{'item' : 'text', 'xpath' : '/html/body/table/tbody/tr[35]/td[2]', 'section' : '802.11 Information', 'option' : 'Country code'}

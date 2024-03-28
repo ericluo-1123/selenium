@@ -1,0 +1,39 @@
+[System Information]
+Model name = AWK-1132C-US
+Device name = AWK-1132C_00:04:A0
+Serial number = CBDCT1000001
+System uptime = 0 days 00h:00m:43s
+Firmware version = 1.0 Build 24031213
+BIOS version = 1.9.13
+
+[Device Information]
+Device MAC address = 00:90:E8:00:04:A0
+IP address = 192.168.127.253
+Subnet mask = 255.255.255.0
+Gateway = 
+
+[Board Flag Info]
+flag_eth_phy = 1
+flag_eth_type = 1
+flag_wifi_module = 0
+flag_art = 1
+flag_mp = 1
+flag_idgen = 1
+flag_macgen = 1
+flag_burn = 1
+flag_cmu = 1
+flag_gps = 1
+flag_txrx = 0
+flag_eot = 0
+flag_poe = 0
+flag_asqc = 0
+
+[802.11 Information]
+Operation mode = CLIENT
+Channel = 
+SSID = MOXA
+Security mode = OPEN
+RF type = 
+Transmission rate = Auto
+Country code = US
+
