@@ -1,0 +1,10 @@
+{'item' : 'get', 'data' : 'http://192.168.0.100/factory_camera.asp', 'timeout' : '3', 'skip_fail' : 'True'}
+{'item' : 'autoit_win_activate', 'title' : 'Windows 安全性'}
+{'item' : 'autoit_send', 'send_text' : 'admin'}
+{'item' : 'sleep', 'data' : '0.3'}
+{'item' : 'autoit_send', 'send_text' : '{TAB}'}
+{'item' : 'autoit_send', 'send_text' : 'admin'}
+{'item' : 'sleep', 'data' : '0.3'}
+{'item' : 'autoit_send', 'send_text' : '{ENTER}'}
+#{'item' : 'autoit_win_close', 'title' : 'http://192.168.0.100/factory_camera.asp - 設定檔 1 - Microsoft​ Edge'}
+
